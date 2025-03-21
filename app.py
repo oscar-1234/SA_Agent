@@ -15,7 +15,8 @@ from tools.final_answer import FinalAnswerTool as FinalAnswer
 
 
 model = HfApiModel(
-model_id='Qwen/Qwen2.5-Coder-32B-Instruct',
+#model_id='Qwen/Qwen2.5-Coder-32B-Instruct',
+model_id='https://pflgm2locj2t89co.us-east-1.aws.endpoints.huggingface.cloud',
 provider=None,
 )
 
