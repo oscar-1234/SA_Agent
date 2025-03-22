@@ -12,7 +12,7 @@ from tools.catering_service_tool import SimpleTool as CateringServiceTool
 from tools.superhero_party_theme_generator import SuperheroPartyThemeTool as SuperheroPartyThemeGenerator
 from tools.final_answer import FinalAnswerTool as FinalAnswer
 
-
+#prova salvataggio modifica
 
 model = HfApiModel(
 #model_id='Qwen/Qwen2.5-Coder-32B-Instruct',
