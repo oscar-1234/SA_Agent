@@ -15,8 +15,10 @@ from tools.final_answer import FinalAnswerTool as FinalAnswer
 #prova salvataggio modifica
 
 model = HfApiModel(
-#model_id='Qwen/Qwen2.5-Coder-32B-Instruct',
-model_id='https://pflgm2locj2t89co.us-east-1.aws.endpoints.huggingface.cloud',
+#model_id='Qwen/Qwen2.5-Coder-32B-Instruct', #Ko
+#model_id='meta-llama/Llama-3.2-1B', #?
+model_id='https://jc26mwg228mkj8dw.us-east-1.aws.endpoints.huggingface.cloud',
+#model_id='https://pflgm2locj2t89co.us-east-1.aws.endpoints.huggingface.cloud', #Ok
 provider=None,
 )
 
