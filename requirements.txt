@@ -2,3 +2,4 @@ requests
 duckduckgo_search
 smolagents
 markdownify
+smolagents[gradio]
